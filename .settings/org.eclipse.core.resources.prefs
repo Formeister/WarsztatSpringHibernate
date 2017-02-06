@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/warsztat/springhibernate/controller/AppController.java=UTF-8
+encoding//src/main/resources/application.properties=UTF-8
+encoding//src/main/resources/messages.properties=ISO-8859-1
+encoding//src/main/webapp/WEB-INF/views/registration.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/registrationsuccess.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/userslist.jsp=UTF-8
+encoding//src/test/resources/application.properties=UTF-8
+encoding/<project>=UTF-8

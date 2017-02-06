@@ -101,7 +101,7 @@ public class AppControllerTest {
         when(userService.isUserPeselUnique(anyInt(), anyString())).thenReturn(true);
         doNothing().when(userService).saveUser(any(User.class));
         Assert.assertEquals(appController.saveUser(users.get(0), result, model), "registrationsuccess");
-        Assert.assertEquals(model.get("success"), "User Axel Crook registered successfully");
+        Assert.assertEquals(model.get("success"), "Klient Janek Kowalski został zarejestrowany pomyślnie.");
     }
  
     @Test
@@ -134,7 +134,7 @@ public class AppControllerTest {
         when(userService.isUserPeselUnique(anyInt(), anyString())).thenReturn(true);
         doNothing().when(userService).updateUser(any(User.class));
         Assert.assertEquals(appController.updateUser(users.get(0), result, model, ""), "registrationsuccess");
-        Assert.assertEquals(model.get("success"), "User Axel Crook updated successfully");
+        Assert.assertEquals(model.get("success"), "Klient Janek Kowalski został zaktualizowany pomyślnie.");
     }
      
      

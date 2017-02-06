@@ -83,6 +83,10 @@ public class UserDaoImplTest extends EntityDaoImplTest{
     	Assert.assertEquals(userDao.searchByLastName("Kowalski").get(0), userDao.findById(1));
     }
   
+    @Test
+    public void countAllUsers(){
+    	Assert.assertEquals(userDao.countAllUsers(), 2);
+    }
  
     public User getSampleUser(){
     	User user = new User();

@@ -45,6 +45,13 @@ public class UserDaoImpl extends AbstractDao<Integer, User> implements UserDao {
                 .getResultList();
         return users;
     }
+    
+    // COUNT USERS
+    public int countAllUsers(){
+    	int count = 0;
+    	count = findAllUsers().size();
+    	return count;
+    }
  
     public void save(User user) {
         persist(user);

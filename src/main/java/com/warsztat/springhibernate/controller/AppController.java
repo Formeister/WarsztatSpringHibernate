@@ -38,9 +38,6 @@ public class AppController {
     @Autowired
     MessageSource messageSource;
  
-    /**
-     * This method will list all existing users.
-     */
     @RequestMapping(value = { "/", "/list" }, method = RequestMethod.GET)
     public String listUsers(ModelMap model) {
  
@@ -49,9 +46,6 @@ public class AppController {
         return "userslist";
     }
  
-    /**
-     * This method will provide the medium to add a new user.
-     */
     @RequestMapping(value = { "/newuser" }, method = RequestMethod.GET)
     public String newUser(ModelMap model) {
         User user = new User();
@@ -60,10 +54,6 @@ public class AppController {
         return "registration";
     }
  
-    /**
-     * This method will be called on form submission, handling POST request for
-     * saving user in database. It also validates the user input
-     */
     @RequestMapping(value = { "/newuser" }, method = RequestMethod.POST)
     public String saveUser(@Valid User user, BindingResult result,
             ModelMap model) {
@@ -72,14 +62,6 @@ public class AppController {
             return "registration";
         }
  
-        /*
-         * Preferred way to achieve uniqueness of field [sso] should be implementing custom @Unique annotation 
-         * and applying it on field [sso] of Model class [User].
-         * 
-         * Below mentioned peace of code [if block] is to demonstrate that you can fill custom errors outside the validation
-         * framework as well while still using internationalized messages.
-         * 
-         */
         if(!userService.isUserPeselUnique(user.getId(), user.getPesel())){
             FieldError peselError =new FieldError("user","pesel",messageSource.getMessage("non.unique.pesel", new String[]{user.getPesel()}, Locale.getDefault()));
             result.addError(peselError);
@@ -92,11 +74,7 @@ public class AppController {
         //return "success";
         return "registrationsuccess";
     }
- 
- 
-    /**
-     * This method will provide the medium to update an existing user.
-     */
+
     @RequestMapping(value = { "/edit-user-{pesel}" }, method = RequestMethod.GET)
     public String editUser(@PathVariable String pesel, ModelMap model) {
         User user = userService.findByPesel(pesel);
@@ -105,10 +83,6 @@ public class AppController {
         return "registration";
     }
      
-    /**
-     * This method will be called on form submission, handling POST request for
-     * updating user in database. It also validates the user input
-     */
     @RequestMapping(value = { "/edit-user-{pesel}" }, method = RequestMethod.POST)
     public String updateUser(@Valid User user, BindingResult result,
             ModelMap model, @PathVariable String pesel) {
@@ -131,20 +105,12 @@ public class AppController {
         return "registrationsuccess";
     }
  
-     
-    /**
-     * This method will delete an user by it's Pesel value.
-     */
     @RequestMapping(value = { "/delete-user-{pesel}" }, method = RequestMethod.GET)
     public String deleteUser(@PathVariable String pesel) {
         userService.deleteUserByPesel(pesel);
         return "redirect:/list";
     }
      
- 
-    /**
-     * This method will provide Actions list to views
-     */
     @ModelAttribute("roles")
     public List<Action> initializeActions() {
         return actionService.findAll();

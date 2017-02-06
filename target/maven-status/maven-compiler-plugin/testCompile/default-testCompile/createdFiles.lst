@@ -1,0 +1,7 @@
+com\warsztat\springhibernate\configuration\JpaConfigurationTest.class
+com\warsztat\springhibernate\dao\EntityDaoImplTest.class
+com\warsztat\springhibernate\service\UserServiceImplTest.class
+com\warsztat\springhibernate\dao\UserDaoImplTest.class
+com\warsztat\springhibernate\service\ActionServiceImplTest.class
+com\warsztat\springhibernate\dao\ActionDaoImplTest.class
+com\warsztat\springhibernate\controller\AppControllerTest.class

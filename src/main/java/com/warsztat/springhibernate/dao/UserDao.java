@@ -20,5 +20,7 @@ public interface UserDao {
     List<User> searchByAction(Integer actionId); 
     
     List<User> searchByLastName(String lastName); 
+    
+    int countAllUsers();
  
 }

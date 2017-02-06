@@ -30,11 +30,6 @@ public class UserServiceImpl implements UserService{
         dao.save(user);
     }
     
-    /*
-     * Since the method is running with Transaction, No need to call hibernate update explicitly.
-     * Just fetch the entity from db and update it with proper values within transaction.
-     * It will be updated in db once transaction ends. 
-     */
     public void updateUser(User user) {
         User entity = findById(user.getId());
         if (entity != null) {
@@ -58,6 +53,12 @@ public class UserServiceImpl implements UserService{
     public boolean isUserPeselUnique(Integer id, String pesel) {
         User user = findByPesel(pesel);
         return ( user == null || ((id != null) && (user.getId() == id)));
+    }
+    
+    public int countAllUsers() {
+    	int count=0;
+    	count = dao.findAllUsers().size();
+        return count;
     }
      
 }

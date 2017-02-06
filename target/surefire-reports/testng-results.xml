@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.warsztat.springhibernate.dao.UserDaoImplTest" duration-ms="7131" started-at="2017-02-06T08:34:15Z" finished-at="2017-02-06T08:34:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="7131" started-at="2017-02-06T08:34:15Z" finished-at="2017-02-06T08:34:22Z">
+      <class name="com.warsztat.springhibernate.dao.UserDaoImplTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="32" started-at="2017-02-06T09:34:15Z" finished-at="2017-02-06T09:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5986" started-at="2017-02-06T09:34:15Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-02-06T09:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="setUp" is-config="true" duration-ms="281" started-at="2017-02-06T09:34:21Z" finished-at="2017-02-06T09:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="125" started-at="2017-02-06T09:34:21Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.countAllUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="countAllUsers()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="countAllUsers" duration-ms="297" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countAllUsers -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="16" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.countAllUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="15" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.deleteByPesel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="deleteByPesel()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="deleteByPesel" duration-ms="67" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteByPesel -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="16" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.deleteByPesel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.deleteUserByInvalidPesel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="deleteUserByInvalidPesel()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="deleteUserByInvalidPesel" duration-ms="15" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserByInvalidPesel -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.deleteUserByInvalidPesel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="16" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.findAllUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="16" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="findAllUsers()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="findAllUsers" duration-ms="0" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllUsers -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.findAllUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="findById" duration-ms="47" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.findByPesel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="findByPesel()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="findByPesel" duration-ms="31" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findByPesel -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="15" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.findByPesel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="save()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="save" duration-ms="32" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- save -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.save()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="15" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.searchByAction()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.save()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="searchByAction()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="searchByAction" duration-ms="32" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByAction -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.searchByAction()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="15" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.searchByLastName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="searchByLastName()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="searchByLastName" duration-ms="16" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByLastName -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="15" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.warsztat.springhibernate.dao.UserDaoImplTest.searchByLastName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.warsztat.springhibernate.dao.UserDaoImplTest@631330c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-02-06T09:34:22Z" finished-at="2017-02-06T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.warsztat.springhibernate.dao.UserDaoImplTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.warsztat.springhibernate.dao.UserDaoImplTest -->
+</testng-results>

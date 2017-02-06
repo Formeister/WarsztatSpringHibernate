@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+    <user_action user_id="1" action_id="2" />
+    <user_action user_id="2" action_id="2" />
+</dataset>

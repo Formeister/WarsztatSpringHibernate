@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+    <user id="1" pesel="4234241231" PASSWORD="smmmy" FIRST_NAME="Samuel" LAST_NAME="Kowalski" EMAIL="kowal@poczta.pl" />
+    <user id="2" pesel="9684536423" PASSWORD="tmmmy" FIRST_NAME="Tomasz" LAST_NAME="Nowak" EMAIL="nowak@poczta.pl" />
+</dataset>

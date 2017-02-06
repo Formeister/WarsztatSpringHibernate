@@ -1,0 +1,17 @@
+com\warsztat\springhibernate\configuration\AppInitializer.class
+com\warsztat\springhibernate\model\User.class
+com\warsztat\springhibernate\service\UserServiceImpl.class
+com\warsztat\springhibernate\configuration\JpaConfiguration.class
+com\warsztat\springhibernate\dao\UserDao.class
+com\warsztat\springhibernate\controller\AppController.class
+com\warsztat\springhibernate\dao\UserDaoImpl.class
+com\warsztat\springhibernate\service\ActionServiceImpl.class
+com\warsztat\springhibernate\service\UserService.class
+com\warsztat\springhibernate\model\ActionType.class
+com\warsztat\springhibernate\converter\ActionConverter.class
+com\warsztat\springhibernate\dao\ActionDao.class
+com\warsztat\springhibernate\dao\ActionDaoImpl.class
+com\warsztat\springhibernate\dao\AbstractDao.class
+com\warsztat\springhibernate\service\ActionService.class
+com\warsztat\springhibernate\configuration\AppConfig.class
+com\warsztat\springhibernate\model\Action.class
